@@ -8,7 +8,8 @@ export default {
     extend: {
       colors:{
         'paimary':"#6A4DF4",
-         'secondary':"#737373"
+         'secondary':"#737373",
+         'box':"#F8F6FE",
       },
     fontFamily: {
         'Inter':["Inter", "sans-serif"],
@@ -21,6 +22,9 @@ export default {
           title:"45px",
 
          },
+           lineHeight: {
+        'line-haight': '26',
+      },
       padding: {
         '15px': '15px',
       }
