@@ -1,10 +1,11 @@
+import React from 'react'
 
-const Image = ({src,className}) => {
+const image = ({src,alt,className}) => {
   return (
-    <>
-    <img className={className} src={src} />
-    </>
+    <div>
+      <img className={className} src={src} alt={alt}/>
+    </div>
   )
 }
 
-export default Image
+export default image
