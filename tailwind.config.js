@@ -10,6 +10,8 @@ export default {
         'paimary':"#6A4DF4",
          'secondary':"#737373",
          'box':"#F8F6FE",
+         "font":"#151515",
+         "sec":"#F3F3F3"
       },
     fontFamily: {
         'Inter':["Inter", "sans-serif"],
