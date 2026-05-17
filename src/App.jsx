@@ -1,7 +1,7 @@
 // components start
 import ListStyle from "./components/ListStyle"
 import Button from "./components/Button"
-import Image from "./components/Image"
+import image from "./components/image"
 import Content from "./components/Content"
 import Des from "./Des"
 import WorkCard from "./components/WorkCard"
