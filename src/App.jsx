@@ -150,7 +150,7 @@ const App = () => {
   <Des className="" descp="Our Recent Work" tite="There are many variations of passages of Lorem Ipsum available, but themajority  have suffered alteration in some form."/>
 </div>
 <div className="flex justify-between pt-[30px] pb-[10px]">
-<ListStyle className="" text="All"/>
+<ListStyle className="" onClick={()=> seActive("all")} text="All"/>
 <ListStyle className="" text="Mobile Design"/>
 <ListStyle className="" text="Web design"/>
 <ListStyle className="" text="Branding"/>
