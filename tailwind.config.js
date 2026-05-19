@@ -23,6 +23,7 @@ export default {
           d:"35px",
           title:"45px",
           des:'75px',
+          r:"50px",
 
          },
            lineHeight: {
@@ -32,6 +33,9 @@ export default {
     maxWidth:{
       'container':'1320px',
     },
+          padding: {
+        'pad': '85px',
+      }
   },
   plugins: [],
 }
