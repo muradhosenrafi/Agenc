@@ -22,14 +22,16 @@ export default {
           c:"25px",
           d:"35px",
           title:"45px",
+          des:'75px',
 
          },
            lineHeight: {
-        'line-haight': '26',
+        'line-haight': '26px',
+        'desc':'120%'
       },
-      padding: {
-        '15px': '15px',
-      }
+    maxWidth:{
+      'container':'1320px',
+    },
   },
   plugins: [],
 }
