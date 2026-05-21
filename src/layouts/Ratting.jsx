@@ -17,7 +17,7 @@ const Ratting = () => {
     <h2 className="text-d text-font font-Inter font-semibold w-[387px]">West cost Brand makers-Global Edge</h2>
     </div>
     <div className="8/12">
-   <Flex className="justify-around">
+   <Flex className="justify-between gap-[100px]">
     <div className=" ">
     <RattingCard className="" ratinDes="200+" title="Customer Satisfied"/>
     <div className="relative">
