@@ -11,7 +11,8 @@ export default {
          'secondary':"#737373",
          'box':"#F8F6FE",
          "font":"#151515",
-         "sec":"#F3F3F3"
+         "sec":"#F3F3F3",
+         'star':"#FFAC4A"
       },
     fontFamily: {
         'Inter':["Inter", "sans-serif"],

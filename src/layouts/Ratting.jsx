@@ -6,7 +6,9 @@ import card2 from "../assets/Ellipse 2.png"
 import card3 from "../assets/Ellipse 3.png"
 import card4 from "../assets/Ellipse 4.png"
 import card5 from "../assets/Ellipse 5.png"
-import Image from './../components/Image';
+import Image from './../components/Image'
+import { BsStarFill } from "react-icons/bs";
+
 const Ratting = () => {
   return (
   <section>
@@ -43,9 +45,38 @@ const Ratting = () => {
     </div>
     <div className="relative flex flex-col"> 
    <RattingCard className="" ratinDes="4.5" title="200+ Avg rating"/>
+    <div className="relative">
+
+<div className="absolute left-[20px] text-star  top-0 w-[35px] h-[35px]">
+   <BsStarFill />
+</div>
+<div className="absolute  left-[40px] text-star top-0 w-[35px] h-[35px]">
+<BsStarFill />
+</div>
+<div className="absolute left-[60px] text-star  top-0 w-[16px] h-[16px] ">
+  <BsStarFill />
+</div>
+<div className="absolute left-[80px] text-star top-0 w-[35px] h-[35px]">
+ <BsStarFill />
+</div>
+<div className="absolute left-[100px] text-star  top-0 w-[35px] h-[35px]">
+<BsStarFill />
+</div>
+
+    </div>
     </div>
     <div className="relative flex flex-col"> 
    <RattingCard className="" ratinDes="351+" title="Project Delivered"/>
+
+    <div className="relative">
+
+<div className="absolute">
+  <h3 className="font-Inter text-paimary text-[20px] font-medium ">See Works</h3>
+  <div className="h-[2px] w-[120px] bg-paimary "></div>
+</div>
+
+    </div>
+
     </div>
 
    </Flex>
