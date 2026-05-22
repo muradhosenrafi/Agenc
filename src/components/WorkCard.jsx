@@ -1,17 +1,15 @@
+import Image from "../components/image"
 
+import Headding from "./Headding"
+import Para from "./para"
 
-
-const WorkCard = ({className,src,alt,h2des,pra}) => {
+const WorkCard = ({className,workicon,text,title}) => {
   return (
-    <div className=" hover:shadow-2xl cursor-pointer w-[424px] h-[457px] duration-300 bg-white rounded-[20px]">
-    <div className=" rounded-[20px]">
-       <img className={className} src={src} alt={alt} />
-    </div>
-     <div className="text-center">
-      <h2 className="font-bold text-ul text-font pt-[30px] pb-[10px]">{h2des}</h2>
-     <p className={`font-normal leading-6 mx-auto text-secondary text-center w-[320px]`}>{pra}</p>
-     </div>
-    </div>
+<div className={`w-[424px] h-[457px] rounded-[20px] bg-white ${className}`}>
+  <Image className="h-[311px]" src={workicon}/>
+  <Headding className="!text-ul pt-[30px] text-center" text={text}/>
+  <Para className="mx-auto text-center !w-[340px]" text={title}/>
+</div>
   )
 }
 

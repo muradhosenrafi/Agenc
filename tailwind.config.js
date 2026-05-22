@@ -36,6 +36,9 @@ export default {
     },
           padding: {
         'pad': '85px',
+      },
+            boxShadow: {
+        'box': '6px 6px 35px 0px rgba(0, 0, 0, 0.10)',
       }
   },
   plugins: [],
