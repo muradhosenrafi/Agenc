@@ -8,7 +8,7 @@ import Button from "../components/Button"
 
 
 
-const navbar = () => {
+const Navbar = () => {
   return (
     <div>
  <Container>
@@ -40,4 +40,4 @@ const navbar = () => {
   )
 }
 
-export default navbar
+export default Navbar

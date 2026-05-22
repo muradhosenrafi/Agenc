@@ -1,4 +1,4 @@
-import Image from "../components/image"
+import Image from "./Image"
 
 import Headding from "./Headding"
 import Para from "./para"

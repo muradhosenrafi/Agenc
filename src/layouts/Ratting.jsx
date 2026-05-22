@@ -6,7 +6,7 @@ import card2 from "../assets/Ellipse 2.png"
 import card3 from "../assets/Ellipse 3.png"
 import card4 from "../assets/Ellipse 4.png"
 import card5 from "../assets/Ellipse 5.png"
-import Image from './../components/Image'
+import Image from '../components/Image'
 import { BsStarFill } from "react-icons/bs";
 
 const Ratting = () => {
