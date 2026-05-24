@@ -12,7 +12,8 @@ export default {
          'box':"#F8F6FE",
          "font":"#151515",
          "sec":"#F3F3F3",
-         'star':"#FFAC4A"
+         'star':"#FFAC4A",
+         'reviews':'#F9BD2C',
       },
     fontFamily: {
         'Inter':["Inter", "sans-serif"],
@@ -39,6 +40,8 @@ export default {
       },
             boxShadow: {
         'box': '6px 6px 35px 0px rgba(0, 0, 0, 0.10)',
+        'boxone': '0px 15px 60px 0px rgba(0, 0, 0, 0.10)',
+
       }
   },
   plugins: [],

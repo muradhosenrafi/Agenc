@@ -1,19 +1,9 @@
 
-
-// const Button = ({text,className}) => {
-//   return (
-//     <button className={`text-[#ffff] text-2xl  bg-paimary py-[15px] px-[42px] rounded-[10px] font-semibold ${className}`}>{text}</button>
-//   )
-// }
-
-// export default Button
-
-const Button = ({ text, className}) => {
+const Button = ({text,className}) => {
   return (
-    <button className={`text-[#fff] text-2xl bg-primary py-[15px] px-[42px] rounded-[10px] font-semibold ${className}`}>
-      {text}
-    </button>
-  );
-};
+    <button className={`text-[#ffff] text-2xl  bg-paimary py-[15px] px-[42px] rounded-[10px] font-semibold ${className}`}>{text}</button>
+  )
+}
 
-export default Button;
+export default Button
+
