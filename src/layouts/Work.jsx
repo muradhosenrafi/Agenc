@@ -1,7 +1,7 @@
 import Container from "../components/Container"
 import Flex from "../components/Flex"
 import Headding from "../components/Headding"
-import Para from "../components/para"
+import Para from "../components/Para"
 import UlLi from "../components/UlLi"
 import WorkCard from "../components/WorkCard"
 

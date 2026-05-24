@@ -1,6 +1,6 @@
 import Image from "./Image"
 import Headding from "./Headding"
-import Para from "./para"
+import Para from "./Para"
 
 const ServiceCard = ({icone,title,text}) => {
   return (

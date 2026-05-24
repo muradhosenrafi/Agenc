@@ -2,7 +2,7 @@ import Flex from "../components/Flex"
 import Image from "../components/Image"
 import Agence from "../assets/agence.png"
 import Headding from "../components/Headding"
-import Para from "../components/para"
+import Para from "../components/Para"
 import Container from "../components/Container"
 import AgenceCard from "../components/AgenceCard"
 

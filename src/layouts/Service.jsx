@@ -1,6 +1,6 @@
 import Container from "../components/Container"
 import Headding from "../components/Headding"
-import Para from "../components/para"
+import Para from "../components/Para"
 import ServiceCard from "../components/ServiceCard"
 import Flex from "../components/Flex"
 
